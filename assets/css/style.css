@@ -158,7 +158,7 @@ form a {
     font-family: 'Orbitron', sans-serif;
 }
 
-button {
+.button {
     padding: 12px 28px;
     background-color: #ffffff;
     font-family: 'Orbitron', sans-serif;
@@ -167,6 +167,8 @@ button {
     position: fixed;
     bottom: 1%;
     right: 2%;
+    text-decoration: none;
+    color: #000000;
 }
 
 footer {
