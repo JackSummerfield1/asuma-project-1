@@ -218,12 +218,12 @@ ol>li {
 
 /* Position front and back */
 
-.flip-card-front,
-flip-card-back {
+.flip-card-front {
     position: absolute;
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
+    border-radius: 5px;
 }
 
 /* Front & back side styling if no image present */
@@ -233,6 +233,12 @@ flip-card-back {
     background-color: #05040a;
     color: #ffffff;
     height: 100%;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 footer {
