@@ -144,6 +144,37 @@ main {
     text-decoration: underline;
 }
 
+#newsletter {
+    text-align: center;
+    margin: 10% 5% 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 2%;
+    padding: 5%;
+}
+
+/* Form text boxes, bg colors standard and when being used */
+form input, form textarea {
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 3px 0;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #95fffa;
+}
+
+form a {
+    color: #ffffff;
+}
+
+.subscription-button {
+    padding: 12px 28px;
+    background-color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+}
+
 footer {
     background-color: #05040a;
     display: flex;
