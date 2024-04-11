@@ -178,15 +178,26 @@ ol>li {
     color: #000000;
 }
 
+/* Container for flip cards */
+
+#flip-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
 /* Creating flipcards (Credit to w3schools.com with assistance on creating these) */
 
 /* Setting size of flipcards */
 
 .flip-card {
-    height: 738px;
-    width: 614px;
+    height: 300px;
+    width: 250px;
     /* Adds 3d effect to animation */
     perspective: 1000px;
+    margin: 5% 50px;
 }
 
 /* Positioning front and rear side of flip card */
@@ -195,7 +206,6 @@ ol>li {
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
     transition: transform 1.2s;
     transform-style: preserve-3d;
 }
@@ -222,6 +232,7 @@ flip-card-back {
 .flip-card-back {
     background-color: #05040a;
     color: #ffffff;
+    height: 100%;
 }
 
 footer {
