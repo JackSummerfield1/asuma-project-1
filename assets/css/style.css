@@ -98,7 +98,7 @@ section {
 #main-content {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
-    margin: 0 5% 25%;
+    margin: 5% 5% 25%;
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 2%;
     padding: 5%;
@@ -216,7 +216,7 @@ footer a {
     #main-content {
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
-        margin: 0 30% 15% 5%;
+        margin: 5% 30% 5% 5%;
         border: 2px solid rgba(255,255,255,0.5);
         border-radius: 2%;
         padding: 5%;
@@ -224,7 +224,7 @@ footer a {
 
     #yt-video {
         text-align: center;
-        margin: 0 5% 15% 30%;
+        margin: 0 5% 5% 30%;
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
         border: 2px solid rgba(255,255,255,0.5);
@@ -245,11 +245,11 @@ footer a {
     }
 
     #main-content {
-        margin: 0 20% 10%;
+        margin: 2% 20%;
     }
 
     #yt-video {
-        margin: 0 20% 15%;
+        margin: 2% 20%;
     }
 
     iframe {
