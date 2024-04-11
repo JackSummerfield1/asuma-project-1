@@ -181,6 +181,11 @@ footer a {
     color: #ffffff;
 }
 
+footer a:nth-child(5n) {
+    font-size: 50%;
+    margin-top: 8px;
+}
+
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) {
