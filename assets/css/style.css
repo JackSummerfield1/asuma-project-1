@@ -81,6 +81,7 @@ nav {
 main {
     background-color: #cc7979;
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 footer {
