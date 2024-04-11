@@ -98,6 +98,10 @@ main {
     list-style-type: none;
 }
 
+#main-menu > li:nth-child(4n) {
+    margin-bottom: 25%;
+}
+
 #main-menu a {
     color: #ffffff;
 }
