@@ -33,7 +33,8 @@ header a {
     font-family: 'Orbitron', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
     padding: 0.4em;
@@ -90,7 +91,7 @@ section {
     margin: 5%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     padding: 5%;
 }
@@ -99,7 +100,7 @@ section {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     margin: 5% 5% 25%;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     padding: 5%;
 }
@@ -121,7 +122,7 @@ section {
     margin: 0 5% 10%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     padding: 5%;
 }
@@ -133,18 +134,20 @@ section {
     text-decoration: underline;
 }
 
-ol > li {
+ol>li {
     margin-left: 5%;
 }
 
 /* Form text boxes, bg colors standard and when being used */
-form input, form textarea {
+form input,
+form textarea {
     border: 2px solid #ffffff;
     border-radius: 3px;
     padding: 3px 0;
 }
 
-form input:focus, form textarea:focus {
+form input:focus,
+form textarea:focus {
     background-color: #95fffa;
 }
 
@@ -158,7 +161,7 @@ form a {
     font-family: 'Orbitron', sans-serif;
 }
 
-ol > li {
+ol>li {
     margin-bottom: 20px;
 }
 
@@ -173,6 +176,52 @@ ol > li {
     right: 2%;
     text-decoration: none;
     color: #000000;
+}
+
+/* Creating flipcards (Credit to w3schools.com with assistance on creating these) */
+
+/* Setting size of flipcards */
+
+.flip-card {
+    height: 738px;
+    width: 614px;
+    /* Adds 3d effect to animation */
+    perspective: 1000px;
+}
+
+/* Positioning front and rear side of flip card */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.2s;
+    transform-style: preserve-3d;
+}
+
+/* Do horizontal flip when mouse hovering, mirror image to ensure image is legible */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg) scaleX(-1);
+}
+
+/* Position front and back */
+
+.flip-card-front,
+flip-card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+/* Front & back side styling if no image present */
+
+.flip-card-front,
+.flip-card-back {
+    background-color: #05040a;
+    color: #ffffff;
 }
 
 footer {
@@ -206,7 +255,7 @@ footer a:nth-child(5n) {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1em;
     }
 
@@ -228,7 +277,7 @@ footer a:nth-child(5n) {
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
         margin: 5% 30% 5% 5%;
-        border: 2px solid rgba(255,255,255,0.5);
+        border: 2px solid rgba(255, 255, 255, 0.5);
         border-radius: 2%;
         padding: 5%;
     }
@@ -238,7 +287,7 @@ footer a:nth-child(5n) {
         margin: 0 5% 5% 30%;
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
-        border: 2px solid rgba(255,255,255,0.5);
+        border: 2px solid rgba(255, 255, 255, 0.5);
         border-radius: 2%;
         padding: 2%;
     }
