@@ -155,3 +155,23 @@ footer {
 footer a {
     color: #ffffff;
 }
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1em;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1em;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
