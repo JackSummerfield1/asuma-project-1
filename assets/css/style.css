@@ -85,6 +85,20 @@ main {
     margin-top: 65.59px;
 }
 
+section {
+    text-align: center;
+    margin: 10% 5% 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 2%;
+    padding: 5%;
+}
+
+ol > li {
+    margin-left: 5%;
+}
+
 /* Styling Main Menu */
 #main-menu {
     display: flex;
@@ -144,16 +158,6 @@ main {
     text-decoration: underline;
 }
 
-#newsletter {
-    text-align: center;
-    margin: 10% 5% 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 2%;
-    padding: 5%;
-}
-
 /* Form text boxes, bg colors standard and when being used */
 form input, form textarea {
     border: 2px solid #ffffff;
@@ -167,6 +171,17 @@ form input:focus, form textarea:focus {
 
 form a {
     color: #ffffff;
+}
+
+button {
+    padding: 12px 28px;
+    background-color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
 }
 
 .subscription-button {
