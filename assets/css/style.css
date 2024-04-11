@@ -39,6 +39,20 @@ h1 {
     padding: 0.4em;
 }
 
+#menu {
+    text-decoration: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
 /* Navbar styles */
 
 nav {
@@ -65,22 +79,8 @@ nav {
     font-size: 2em;
 }
 
-#menu {
-    text-decoration: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-}
-
-#menu > li {
-    margin-bottom: 0.5em;
-}
-
-.active {
-    border-bottom: 1px solid #ffffff;
-}
-
 main {
-    background: url('../images/mountain-range.jpg') no-repeat center center/cover; no-repeat center center/cover;
+    background: url('../images/mountain-range.jpg') no-repeat center center/cover;
     flex: 1 0 auto;
     margin-top: 65.59px;
 }
@@ -95,10 +95,6 @@ section {
     padding: 5%;
 }
 
-ol > li {
-    margin-left: 5%;
-}
-
 /* Styling Main Menu */
 #main-menu {
     display: flex;
@@ -106,13 +102,13 @@ ol > li {
     align-items: center;
 }
 
-#main-menu > li {
+#main-menu>li {
     margin-top: 25%;
     font-size: 180%;
     list-style-type: none;
 }
 
-#main-menu > li:nth-child(4n) {
+#main-menu>li:nth-child(4n) {
     margin-bottom: 25%;
 }
 
@@ -137,8 +133,8 @@ ol > li {
 }
 
 #main-content p {
-    font-weight:400;
-    text-align:center;
+    font-weight: 400;
+    text-align: center;
 }
 
 #yt-video {
@@ -158,6 +154,10 @@ ol > li {
     text-decoration: underline;
 }
 
+ol > li {
+    margin-left: 5%;
+}
+
 /* Form text boxes, bg colors standard and when being used */
 form input, form textarea {
     border: 2px solid #ffffff;
@@ -173,6 +173,12 @@ form a {
     color: #ffffff;
 }
 
+.subscription-button {
+    padding: 12px 28px;
+    background-color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+}
+
 button {
     padding: 12px 28px;
     background-color: #ffffff;
@@ -182,12 +188,6 @@ button {
     position: fixed;
     bottom: 1%;
     right: 2%;
-}
-
-.subscription-button {
-    padding: 12px 28px;
-    background-color: #ffffff;
-    font-family: 'Orbitron', sans-serif;
 }
 
 footer {
@@ -201,6 +201,7 @@ footer {
 footer a {
     color: #ffffff;
 }
+
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) {
@@ -238,6 +239,11 @@ footer a {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: flex-start;
+        margin-bottom: 15%;
+    }
+
+    #main-menu>li:nth-child(4n) {
+        margin-bottom: 15%;
     }
 
     #main-content {
