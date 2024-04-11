@@ -28,12 +28,25 @@ header a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
-    letter-spacing: 2px;
 }
 
 h1 {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
+}
+
+#menu {
+    text-decoration: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
 }
 
 main {
