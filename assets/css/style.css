@@ -33,7 +33,7 @@ header a {
     font-family: 'Orbitron', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
     padding: 0.4em;
@@ -87,7 +87,7 @@ main {
 
 section {
     text-align: center;
-    margin: 10% 5% 0;
+    margin: 5%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     border: 2px solid rgba(255,255,255,0.5);
@@ -156,6 +156,10 @@ form a {
     padding: 12px 28px;
     background-color: #ffffff;
     font-family: 'Orbitron', sans-serif;
+}
+
+ol > li {
+    margin-bottom: 20px;
 }
 
 .button {
