@@ -22,6 +22,9 @@ header {
     position: fixed;
     width: 100%;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -33,6 +36,32 @@ header a {
 h1 {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
+}
+
+/* Navbar styles */
+
+nav {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2em;
 }
 
 #menu {
