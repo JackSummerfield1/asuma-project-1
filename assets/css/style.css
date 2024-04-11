@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #05040a;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -43,7 +43,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #000000;
+    background-color: #05040a;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -80,7 +80,7 @@ nav {
 }
 
 main {
-    background: url('../images/mountain-and-clouds-wallpaper.avif') no-repeat center center/cover;
+    background: url('../images/mountain-range.jpg') no-repeat center center/cover; no-repeat center center/cover;
     flex: 1 0 auto;
     margin-top: 65.59px;
 }
@@ -103,7 +103,7 @@ main {
 }
 
 footer {
-    background-color: #000000;
+    background-color: #05040a;
     display: flex;
     justify-content: space-evenly;
     padding: 0.5em 0;
