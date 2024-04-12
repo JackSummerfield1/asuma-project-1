@@ -253,7 +253,7 @@ ol>li {
 
 img {
     border-radius: 5px;
-    border: 2px solid #ffffff;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
