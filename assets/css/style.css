@@ -92,7 +92,7 @@ nav {
 }
 
 main {
-    background: url('../images/mountain-range.jpg') no-repeat center center/cover;
+    background: url('../images/background.jpg') no-repeat center center/cover;
     flex: 1 0 auto;
 }
 
