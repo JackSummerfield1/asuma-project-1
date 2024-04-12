@@ -43,6 +43,12 @@ header a {
     text-transform: lowercase;
 }
 
+a img {
+    width: 125px;
+    margin-top: 0.5em;
+    margin-bottom: -1em;
+}
+
 h1,
 h2 {
     font-family: 'primary', sans-serif;
@@ -55,6 +61,7 @@ h2 {
     text-decoration: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+    font-size: 125%;
 }
 
 #menu>li {
