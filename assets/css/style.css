@@ -297,7 +297,6 @@ iframe {
 
 .v-line {
     border-left: 6px solid #ffffff;
-    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
     height: 100%;
     position: absolute;
     top: -20px;
@@ -384,9 +383,7 @@ footer a:nth-child(5n) {
         width: 448px;
         height: 252px;
     }
-}
 
-/* Media query for laptops and larger screens */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
