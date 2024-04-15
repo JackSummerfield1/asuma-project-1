@@ -265,7 +265,22 @@ iframe {
 
 img {
     border-radius: 5px;
+}
+
+.image {
     box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the timeline */
+
+.timeline {
+    max-width: 100%;
+    position: relative;
+    margin: 108px auto;
+}
+
+.container {
+    
 }
 
 footer {
