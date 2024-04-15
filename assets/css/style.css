@@ -263,7 +263,7 @@ iframe {
     height: auto;
 }
 
-img {
+#flip-container img {
     border-radius: 5px;
 }
 
@@ -281,9 +281,16 @@ img {
 
 .left-container, .right-container {
     background-color: #ffffff;
-    margin: 30px 50px 30px 10px;
+    margin: 30px 100px 30px 10px;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+.container img {
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    right: 0;
 }
 
 .v-line {
