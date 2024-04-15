@@ -280,7 +280,9 @@ iframe {
 }
 
 .left-container, .right-container {
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
     margin: 30px 100px 30px 10px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -290,15 +292,16 @@ iframe {
     position: absolute;
     width: 50px;
     border-radius: 50%;
-    right: 0;
+    right: 10px;
 }
 
 .v-line {
     border-left: 6px solid #ffffff;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
     height: 100%;
     position: absolute;
     top: -20px;
-    right: 10px;
+    right: 22px;
     margin: 20px 10px;
     animation: moveline 4s linear forwards;
 }
