@@ -68,8 +68,17 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+#menu a {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+#menu a:hover {
+    opacity: 1;
+}
+
 .active {
-    border-bottom: 1px solid #ffffff;
+    text-decoration: underline #ffffff;
 }
 
 /* Navbar styles */
