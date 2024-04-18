@@ -394,6 +394,10 @@ footer a:nth-child(5n) {
         margin: 2% 20%;
     }
 
+    th, td {
+        padding: 20px;
+    }
+
     #yt-video {
         margin: 2% 20%;
     }
