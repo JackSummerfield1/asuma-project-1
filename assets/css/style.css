@@ -449,6 +449,35 @@ footer a:nth-child(5n) {
     margin-top: 8px;
 }
 
+/* Media query for mobile users */
+@media screen and (max-width: 600px) {
+    .tl-image-l, .tl-image-r {
+        left: 0;
+    }
+
+    .left-container, .right-container {
+        left: 30px;
+    }
+
+    .v-line {
+        left: 30px;
+        height: 1400px;
+    }
+
+    @keyframes moveline {
+        0% {
+            height: 0%;
+        }
+        100% {
+            height: 1400px;
+        }
+    }
+
+    .content {
+        width: 280px;
+    }
+}
+
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) {
