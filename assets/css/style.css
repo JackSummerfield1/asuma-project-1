@@ -323,7 +323,7 @@ tr:hover {
     left: 50%;
     height: 1300px;
     position: absolute;
-    animation: moveline 5s linear forwards;
+    animation: moveline 8s linear forwards;
 }
 
 @keyframes moveline {
@@ -366,6 +366,8 @@ tr:hover {
     width: 50px;
     border-radius: 50%;
     margin-left: -20px;
+    /* Ensures image is hidden prior to animation */
+    opacity: 0;
 }
 
 .tl-image-l {
@@ -374,6 +376,60 @@ tr:hover {
 
 .tl-image-r {
     left: 0;
+}
+
+/* Creating animation for images */
+
+.fade1 {
+    animation: fade-in 3s;
+    /* Ensures image doesn't become hidden after animation */
+    animation-fill-mode: forwards;
+}
+
+.fade2 {
+    animation: fade-in 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.fade3 {
+    animation: fade-in 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.fade4 {
+    animation: fade-in 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+.fade5 {
+    animation: fade-in 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+.fade6 {
+    animation: fade-in 3s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+.fade7 {
+    animation: fade-in 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+.fade8 {
+    animation: fade-in 3s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 footer {
