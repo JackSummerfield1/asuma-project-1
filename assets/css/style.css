@@ -311,6 +311,71 @@ tr:hover {
     box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Styling the timeline */
+.timeline {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.v-line {
+    border-left: 6px solid #ffffff;
+    left: 50%;
+    height: 1300px;
+    position: absolute;
+    animation: moveline 5s linear forwards;
+}
+
+@keyframes moveline {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: 1300px;
+    }
+}
+
+.left-container, .right-container {
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 50%;
+
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+/* Styling the timeline images */
+.tl-image-l, .tl-image-r {
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.tl-image-l {
+    left: 100%;
+}
+
+.tl-image-r {
+    left: 0;
+}
+
 footer {
     background-color: #05040a;
     display: flex;
@@ -386,10 +451,6 @@ footer a:nth-child(5n) {
     }
 
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #ffffff;
-    }
-
     #main-content {
         margin: 2% 20%;
     }
