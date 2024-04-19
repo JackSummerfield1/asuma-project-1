@@ -452,7 +452,7 @@ footer a:nth-child(5n) {
     margin-top: 8px;
 }
 
-/* Media query for mobile users */
+/* Media query for large mobile users */
 @media screen and (max-width: 600px) {
     .tl-image-l, .tl-image-r {
         left: 0;

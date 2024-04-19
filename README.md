@@ -50,8 +50,8 @@ The business goals of ASUMA are:
 ### Visual Design
 
 #### Wireframes
-[Wireframe1](assets/images/IMG_3189.jpg)
-[Wireframe2](assets/images/IMG_3190.jpg)
+[Wireframe1](assets/images/img-3189.jpg)
+[Wireframe2](assets/images/img-3190.jpg)
 
 #### Fonts
 
