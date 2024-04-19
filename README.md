@@ -1,110 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![ASUMA Logo](assets/images/asuma.png)
 
-Welcome Jack Summerfield,
+![Responsive Design](assets/images/responsive-design.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[ASUMA](https://jacksummerfield1.github.io/asuma-project-1/index.html) is designed as a database of updated information including the development of artificial intelligence. Its goal is to showcase the progression of AI from its early stages to its current status and track the rate at which it improves and the reasoning behind it. As it encompasses alot of information, a minimal aesthetic has been maintained to allow the important factors to be highlighted.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## UX
 
-## Gitpod Reminders
+### Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Visitor Goals
 
-`python3 -m http.server`
+The target audience for ASUMA are:
+* People who are interested in AI
+* People who may want to learn how to develop AI
+* People that want to see where AI originated from
+* People that who may want to understand the different forms of AI
 
-A blue button should appear to click: _Make Public_,
+User Goals are:
+* View a collage of flipcards explaining different AI
+* Watch a short video about AI
+* Signup to a newsletter
+* Get some insight on AI development
+* Follow the journey of AI from a baby to where it is now
 
-Another blue button should appear to click: _Open Browser_.
+ASUMA fills these needs by:
+* Opening with a simple background image with introductory information immediately
+* Providing social media links to get frequent updates on AI and its development
+* Providing interactive flipcards to provide information about the different types of AI
+* Providing an easy signup form with an easy access T&C's page
+* Providing an on-site YouTube video explaining AI in 5 minutes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Business Goals
 
-A blue button should appear to click: _Make Public_,
+The business goals of ASUMA are:
+* Display and highlight updated information on AI in a simple way
+* Gain subscribers through the newsletter
+* Gain interest and connect with social media
+* Provide easy ways to showcase types of AI and its entire process of development
 
-Another blue button should appear to click: _Open Browser_.
+#### User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. As a user interested in AI, I expect to see the basics, where, what, when and how did it come about
+2. I expect a timeline of its development, from where it all began
+3. I expect a video to be present to gain some visual knowledge on the topic
+4. I expect to have easy access to updated information on AI, such as a newsletter to subscribe to
+5. I expect to be able to follow the company through social media
+6. I would like to be able to see news on other social media platforms not just the website
 
-To log into the Heroku toolbelt CLI:
+### Visual Design
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Wireframes
+[Wireframe1](assets/images/IMG_3189.jpg)
+[Wireframe2](assets/images/IMG_3190.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Fonts
 
-------
+* The primary font, Architype Ballmer was chosen because its clean, modern design reflects the cutting-edge nature of AI technology, creating a visually appealing and professional appoearance for the website. It is also sans-serif, making it very easibly legible throughout different color schemes.
 
-## Release History
+* The secondary font, Pattanakarn was chosen because its unique and stylised letterforms can help the website stand out, conveying a sense of innovation often associated with AI development.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Icons
 
-**September 20 2023:** Update Python version to 3.9.17.
+* Icons are taken from the [FontAwesome](https://fontawesome.com/) Icon library and are utilised as classes in the <i> tag.
+* As they are used as classes, they can easily be styled using other classes or IDs.
+* Icons are used for the social media icons in the footer and the dropdown menu for mobile users.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Colors
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Color Palette](assets/images/color-pallette.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* I wanted the site to maintain a minimal aesthetic, colors are very basic and clean and are associated with AI, people tend to think of blue when it comes to technology, hence the palette.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* Text is primarily written in white to contrast on the bold color backgrounds.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Animations
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* The site consists of a small variety of animations to provide a sense of activity when arriving on specific pages.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* The uses page consists of 3D flipcard animations to allow some user interactivity with the site.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* The dev page consists of a timeline that moves down the page on load, followed by the images of each development fading in in 1s intervals.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+To be continued...
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Languages
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* HTML
+    * Page markup
+* CSS
+    * Styling
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Libraries
+* FontAwesome
+    * Used for icons
 
-------
+### Platforms
 
-## FAQ about the uptime script
+* Github
+    * Storing code remotely and deployment.
+* Gitpod
+    * IDE for project development.
 
-**Why have you added this script?**
+### Other Tools
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* [Favicon Generator](https://favicon.io/)
+    * Creating Favicons
 
-**How will this affect me?**
+* [Coolors](https://coolors.co/)
+    * Creating color pallettes
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* [Canva](https://www.canva.com/)
+    * Creating flipcards
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* [Color Identifier](https://imagecolorpicker.com/en)
+    * Finding unkown colors on images
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* [ChatGPT](https://chat.openai.com/)
+    * Generating information for website
 
-**So….?**
+## Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Methods
 
-**Can I opt out?**
+#### Validation
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/)
+* CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### General Testing
 
-**Anything more?**
+* All forms have validation and will not submit without the proper information.
+* .gitignore file has been included to prevent system file commits.
+* External links open in a new tab.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Mobile Testing
 
----
+* I tested the site personally on my iPhone device, going through all of the pages, checking buttons, links, forms dropdowns etc. I was personally unable to test Android.
+* The site was sent to close family for them to follow the same process and check everything is working as it should.
+* Chrome was used to inspect the site in mobile format, going through each page individually.
 
-Happy coding!
+#### Desktop Testing
+
+* The site was developed on a Windows PC and all testing occurred via Google Chrome.
+* The site was tested by a few close family on numerous desktop devices including Macbooks.
+* The site has not been tested with Internet Explorer, keeping in mind that support for the browser is gradually going.
+
+## Deployment
+
+### Github Deployment
+
+#### Github Preparation
+
+* A free github account
+
+#### Github Instructions
+
+1.  Log in to your GitHub account, navigate to [https://github.com/JackSummerfield1/asuma-project-1]
+2. You can set up your own repository and copy or clone it, or you fork the repository.
+3. git add, git commit and git push to a GitHub repository, if necessary.
+4. GitHub pages will update from the master branch by default.
+5. Go to **Settings** page of the repository.
+6. Scroll down to the **GitHub Pages** section.
+7. Select the Master Branch as the source and **Confirm** the selection.
+8. Wait a minute or two and it should be live for viewing. See my own [here](https://jacksummerfield1.github.io/asuma-project-1/index.html)
+
+## Credits and Contact
+
+### Content
+
+Nearly all text content was generated by the AI, GPT-3 at [ChatGPT](https://chat.openai.com/). Any code utilised from a site is documented and credited within the code.
+
+### Contact
+
+Please feel free to contact me at **summerzj10@gmail.com**
+
