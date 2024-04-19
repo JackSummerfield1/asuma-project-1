@@ -60,6 +60,15 @@ h2 {
     text-transform: lowercase;
 }
 
+.h4 {
+    font-family: 'secondary', sans-serif;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 100%;
+}
+
 #menu {
     text-decoration: 110%;
     letter-spacing: 2px;
@@ -490,7 +499,7 @@ footer a:nth-child(5n) {
     }
 
     .content {
-        width: 280px;
+        width: 250px;
     }
 }
 
