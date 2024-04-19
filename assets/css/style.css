@@ -219,7 +219,7 @@ ol>li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 /* Creating flipcards (Credit to w3schools.com with assistance on creating these) */
@@ -287,7 +287,8 @@ table {
 }
 
 /* Styling the table header and data */
-th, td {
+th,
+td {
     padding: 6px;
     text-align: center;
 }
@@ -333,12 +334,14 @@ tr:hover {
     0% {
         height: 0%;
     }
+
     100% {
         height: 1300px;
     }
 }
 
-.left-container, .right-container {
+.left-container,
+.right-container {
     position: relative;
     padding: 10px 20px;
     margin: 10px 0;
@@ -364,7 +367,8 @@ tr:hover {
 }
 
 /* Styling the timeline images */
-.tl-image-l, .tl-image-r {
+.tl-image-l,
+.tl-image-r {
     position: absolute;
     width: 50px;
     border-radius: 50%;
@@ -394,31 +398,37 @@ tr:hover {
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
+
 .fade3 {
     animation: fade-in 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
+
 .fade4 {
     animation: fade-in 3s;
     animation-delay: 3s;
     animation-fill-mode: forwards;
 }
+
 .fade5 {
     animation: fade-in 3s;
     animation-delay: 4s;
     animation-fill-mode: forwards;
 }
+
 .fade6 {
     animation: fade-in 3s;
     animation-delay: 5s;
     animation-fill-mode: forwards;
 }
+
 .fade7 {
     animation: fade-in 3s;
     animation-delay: 6s;
     animation-fill-mode: forwards;
 }
+
 .fade8 {
     animation: fade-in 3s;
     animation-delay: 7s;
@@ -454,11 +464,13 @@ footer a:nth-child(5n) {
 
 /* Media query for large mobile users */
 @media screen and (max-width: 600px) {
-    .tl-image-l, .tl-image-r {
+    .tl-image-l,
+    .tl-image-r {
         left: 0;
     }
 
-    .left-container, .right-container {
+    .left-container,
+    .right-container {
         left: 30px;
     }
 
@@ -471,6 +483,7 @@ footer a:nth-child(5n) {
         0% {
             height: 0%;
         }
+
         100% {
             height: 1400px;
         }
@@ -512,7 +525,6 @@ footer a:nth-child(5n) {
     #main-content {
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
-        margin: 5% 30% 5% 5%;
         box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
         border-radius: 2%;
         padding: 5%;
@@ -520,7 +532,6 @@ footer a:nth-child(5n) {
 
     #yt-video {
         text-align: center;
-        margin: 0 5% 5% 30%;
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
         box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.2);
@@ -528,9 +539,15 @@ footer a:nth-child(5n) {
         padding: 2%;
     }
 
+    #yt-video,
+    #main-content {
+        width: 80%;
+        margin-left: 10%;
+    }
+
     table {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     iframe {
@@ -538,31 +555,25 @@ footer a:nth-child(5n) {
         height: 252px;
     }
 
-@media screen and (min-width: 992px) {
-    #main-content {
-        margin: 2% 20%;
-    }
+    @media screen and (min-width: 992px) {
 
-    th, td {
-        padding: 20px;
-    }
+        th,
+        td {
+            padding: 20px;
+        }
 
-    #yt-video {
-        margin: 2% 20%;
-    }
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
 
-    iframe {
-        width: 100%;
-        height: 500px;
-    }
+        .content {
+            width: 400px;
+        }
 
-    .content {
-        width: 400px;
+        .left-container {
+            display: flex;
+            justify-content: flex-end;
+        }
     }
-
-    .left-container {
-        display: flex;
-        justify-content: flex-end;
-    }
-}
 }
