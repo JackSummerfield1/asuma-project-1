@@ -122,6 +122,12 @@ To be continued...
 * [ChatGPT](https://chat.openai.com/)
     * Generating information for website
 
+### Extra work (Out of syllabus)
+
+* Including the use of 3D flipcard animations (Credit provided in code)
+* Importing fonts into workspace as opposed to using Google fonts
+* Including a timeline with basic animations
+
 ## Testing
 
 ### Methods
