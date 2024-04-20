@@ -83,26 +83,64 @@ The business goals of ASUMA are:
 
 ## Features
 
-To be continued...
+### Page Elements
+
+#### All Pages
+
+Navbar
+
+![navbar-mobile](assets/images/navbar-mobile.png)
+![navbar-desktop](assets/images/navbar-desktop.png)
+
+* The navbar is simple, effective and straight to the point. There are 4 pages, all encompassing a range of different topics and following an order of importance (highest being at the left and lowest on the right).
+* For mobile users it is collapsible, making it more accessible for different device sizes.
+* The mobile nav button has been placed to the right for ease of use with one hand.
+
+Footer
+![footer](assets/images/footer.png)
+
+* The footer is very basic but does what needs to be done
+* Access to all socials directly, opening in a seperate tab to ensure the user can easily return back to the website
+* Terms & Conditions page is also linked at the bottom for easy access before signing up to newsletter.
+
+#### Index Page
+
+Minimal and aesthetic background image to compliment the main content. Text content, table and iframe are all surrounded by familiar section styling with a black translucent background to make the page look seamless and free-flowing and a white font-color to make sure the information is under the spotlight. (That's why the users are here after all)
+
+#### Dev Page
+
+* Animated timeline along with relevant information about the development of AI since its early stages. Activity on the page helps make the information more interesting to the user and allows them to gain a greater understanding of the topic.
+
+#### Uses Page
+
+* 3D animated flipcards brings in that interactivity, it allows the user to fully immerse themselves into the site.
+* Flipcards are a proven method for aiding memorization. By presenting information in a concise and repetitive format, they help users retain key concepts or information more effectively.
+* Interactive elements like flipcards can increase user engagement on a website. Visitors are more likely to spend time exploring the content if they can actively participate in the learning process.
+
+#### Newsletter Page
+
+* Contains a short, concise and straight to the point form to signup to a newsletter.
+* It allows the user to stay informed about the latest updates, news, promotions, and content from the website or business. This ensures that they are kept up-to-date with relevant information without having to actively visit the website regularly.
+* Subscribing to the newsletter gives users access to these exclusive benefits, making them feel valued and incentivizing them to stay engaged with the website or business.
 
 ## Technologies Used
 
 ### Languages
 
-* HTML
+* [HTML](https://www.w3.org/html/)
     * Page markup
-* CSS
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
     * Styling
 
 ### Libraries
-* FontAwesome
+* [FontAwesome](https://fontawesome.com/)
     * Used for icons
 
 ### Platforms
 
-* Github
+* [Github](https://github.com/)
     * Storing code remotely and deployment.
-* Gitpod
+* [Gitpod](https://gitpod.io/)
     * IDE for project development.
 
 ### Other Tools
@@ -154,6 +192,70 @@ To be continued...
 * The site was developed on a Windows PC and all testing occurred via Google Chrome.
 * The site was tested by a few close family on numerous desktop devices including Macbooks.
 * The site has not been tested with Internet Explorer, keeping in mind that support for the browser is gradually going.
+
+### Fixed Bugs
+
+* Timeline content for mobile users was too large for screen, so adjusted content width to appropriate value
+* Navbar dropdown menu would appear beneath dev and uses page content, adjusted position of header and increased z-index value to ensure this doesn't occur
+
+### Known Bugs
+
+* iFrame doesn't follow correct ratio on larger screens
+* 404 Page not working as expected
+
+#### Lighthouse Statistics
+
+<table>
+    <tr>
+        <th>Page</th>
+        <th>PageSpeed Insights (Mobile)</th>
+        <th>PageSpeed Insights (Desktop)</th>
+        <th>Link for Proof (Mobile)</th>
+        <th>Link for Proof (Desktop)</th>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td><img src="assets/images/index-mobile-insights.png"></td>
+        <td><img src="assets/images/index-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-index-html/6m87rr6bro?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-index-html/6m87rr6bro?form_factor=desktop">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>dev.html</td>
+        <td><img src="assets/images/dev-mobile-insights.png"></td>
+        <td><img src="assets/images/dev-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-dev-html/l5htks6pxy?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-dev-html/l5htks6pxy?form_factor=desktop">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>uses.html</td>
+        <td><img src="assets/images/uses-mobile-insights.png"></td>
+        <td><img src="assets/images/uses-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-uses-html/mqnlks88gg?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-uses-html/mqnlks88gg?form_factor=desktop">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>newsletter.html</td>
+        <td><img src="assets/images/newsletter-mobile-insights.png"></td>
+        <td><img src="assets/images/newsletter-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-newsletter-html/zd2wpm67sp?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-newsletter-html/zd2wpm67sp?form_factor=desktop">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>terms.html</td>
+        <td><img src="assets/images/terms-mobile-insights.png"></td>
+        <td><img src="assets/images/terms-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-terms-html/q5d11offv5?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-terms-html/q5d11offv5?form_factor=desktop">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>404.html</td>
+        <td><img src="assets/images/404-mobile-insights.png"></td>
+        <td><img src="assets/images/404-desktop-insights.png"></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-404-html/x9pqg9pu4p?form_factor=mobile">Click Here</a></td>
+        <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-404-html/x9pqg9pu4p?form_factor=desktop">Click Here</a></td>
+    </tr>
+</table>
 
 ## Deployment
 
