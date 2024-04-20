@@ -1,6 +1,6 @@
 ![ASUMA Logo](assets/images/asuma.png)
 
-![Responsive Design](assets/images/responsive-design.png)
+![Responsive Design](README-images/responsive-design.png)
 
 [ASUMA](https://jacksummerfield1.github.io/asuma-project-1/index.html) is designed as a database of updated information including the development of artificial intelligence. Its goal is to showcase the progression of AI from its early stages to its current status and track the rate at which it improves and the reasoning behind it. As it encompasses alot of information, a minimal aesthetic has been maintained to allow the important factors to be highlighted.
 
@@ -50,8 +50,8 @@ The business goals of ASUMA are:
 ### Visual Design
 
 #### Wireframes
-[Wireframe1](assets/images/img-3189.jpg)
-[Wireframe2](assets/images/img-3190.jpg)
+[Wireframe1](README-images/img-3189.jpg)
+[Wireframe2](README-images/img-3190.jpg)
 
 #### Fonts
 
@@ -67,7 +67,7 @@ The business goals of ASUMA are:
 
 #### Colors
 
-![Color Palette](assets/images/color-pallette.png)
+![Color Palette](README-images/color-pallette.png)
 
 * I wanted the site to maintain a minimal aesthetic, colors are very basic and clean and are associated with AI, people tend to think of blue when it comes to technology, hence the palette.
 
@@ -89,15 +89,15 @@ The business goals of ASUMA are:
 
 Navbar
 
-![navbar-mobile](assets/images/navbar-mobile.png)
-![navbar-desktop](assets/images/navbar-desktop.png)
+![navbar-mobile](README-images/navbar-mobile.png)
+![navbar-desktop](README-images/navbar-desktop.png)
 
 * The navbar is simple, effective and straight to the point. There are 4 pages, all encompassing a range of different topics and following an order of importance (highest being at the left and lowest on the right).
 * For mobile users it is collapsible, making it more accessible for different device sizes.
 * The mobile nav button has been placed to the right for ease of use with one hand.
 
 Footer
-![footer](assets/images/footer.png)
+![footer](README-images/footer.png)
 
 * The footer is very basic but does what needs to be done
 * Access to all socials directly, opening in a seperate tab to ensure the user can easily return back to the website
@@ -214,43 +214,43 @@ Minimal and aesthetic background image to compliment the main content. Text cont
     </tr>
     <tr>
         <td>index.html</td>
-        <td><img src="assets/images/index-mobile-insights.png"></td>
-        <td><img src="assets/images/index-desktop-insights.png"></td>
+        <td><img src="README-images/index-mobile-insights.png"></td>
+        <td><img src="README-images/index-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-index-html/6m87rr6bro?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-index-html/6m87rr6bro?form_factor=desktop">Click Here</a></td>
     </tr>
     <tr>
         <td>dev.html</td>
-        <td><img src="assets/images/dev-mobile-insights.png"></td>
-        <td><img src="assets/images/dev-desktop-insights.png"></td>
+        <td><img src="README-images/dev-mobile-insights.png"></td>
+        <td><img src="README-images/dev-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-dev-html/l5htks6pxy?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-dev-html/l5htks6pxy?form_factor=desktop">Click Here</a></td>
     </tr>
     <tr>
         <td>uses.html</td>
-        <td><img src="assets/images/uses-mobile-insights.png"></td>
-        <td><img src="assets/images/uses-desktop-insights.png"></td>
+        <td><img src="README-images/uses-mobile-insights.png"></td>
+        <td><img src="README-images/uses-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-uses-html/mqnlks88gg?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-uses-html/mqnlks88gg?form_factor=desktop">Click Here</a></td>
     </tr>
     <tr>
         <td>newsletter.html</td>
-        <td><img src="assets/images/newsletter-mobile-insights.png"></td>
-        <td><img src="assets/images/newsletter-desktop-insights.png"></td>
+        <td><img src="README-images/newsletter-mobile-insights.png"></td>
+        <td><img src="README-images/newsletter-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-newsletter-html/zd2wpm67sp?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-newsletter-html/zd2wpm67sp?form_factor=desktop">Click Here</a></td>
     </tr>
     <tr>
         <td>terms.html</td>
-        <td><img src="assets/images/terms-mobile-insights.png"></td>
-        <td><img src="assets/images/terms-desktop-insights.png"></td>
+        <td><img src="README-images/terms-mobile-insights.png"></td>
+        <td><img src="README-images/terms-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-terms-html/q5d11offv5?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-terms-html/q5d11offv5?form_factor=desktop">Click Here</a></td>
     </tr>
     <tr>
         <td>404.html</td>
-        <td><img src="assets/images/404-mobile-insights.png"></td>
-        <td><img src="assets/images/404-desktop-insights.png"></td>
+        <td><img src="README-images/404-mobile-insights.png"></td>
+        <td><img src="README-images/404-desktop-insights.png"></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-404-html/x9pqg9pu4p?form_factor=mobile">Click Here</a></td>
         <td><a href="https://pagespeed.web.dev/analysis/https-jacksummerfield1-github-io-asuma-project-1-404-html/x9pqg9pu4p?form_factor=desktop">Click Here</a></td>
     </tr>
