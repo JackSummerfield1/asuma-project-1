@@ -201,7 +201,6 @@ Minimal and aesthetic background image to compliment the main content. Text cont
 ### Known Bugs
 
 * iFrame doesn't follow correct ratio on larger screens
-* 404 Page not working as expected
 
 #### Lighthouse Statistics
 
